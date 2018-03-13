@@ -55,7 +55,7 @@ char initialize (char a[10][10]){
 }
 
 void draw_board(){
-	cout << endl << "       0 1 2 3 4 5 6 7 8 9" << endl;
+	cout << endl << "        0 1 2 3 4 5 6 7 8 9" << endl;
 	cout <<  "       ____________________" << endl;
 	
 	for(int x=0; x<10; x++){
